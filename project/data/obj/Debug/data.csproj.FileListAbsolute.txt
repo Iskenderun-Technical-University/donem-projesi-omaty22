@@ -1,0 +1,58 @@
+C:\Users\omer abdullah\source\repos\data\data\bin\Debug\DB1.mdf
+C:\Users\omer abdullah\source\repos\data\data\bin\Debug\DB1_log.ldf
+C:\Users\omer abdullah\source\repos\data\data\bin\Debug\data.exe.config
+C:\Users\omer abdullah\source\repos\data\data\bin\Debug\data.exe
+C:\Users\omer abdullah\source\repos\data\data\bin\Debug\data.pdb
+C:\Users\omer abdullah\source\repos\data\data\bin\Debug\Guna.UI2.dll
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.csproj.AssemblyReference.cache
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.csproj.SuggestedBindingRedirects.cache
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.homeform.resources
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.csproj.GenerateResource.cache
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.csproj.CoreCompileInputs.cache
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.csproj.CopyComplete
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.exe
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.pdb
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.Properties.Resources.resources
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.aboutform.resources
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.carform.resources
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.RENTAL.resources
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.truckform.resources
+C:\Users\omer abdullah\source\repos\data\data\obj\Debug\data.vanform.resources
+C:\Users\omer abdullah\Desktop\project\data\bin\Debug\DB1.mdf
+C:\Users\omer abdullah\Desktop\project\data\bin\Debug\DB1_log.ldf
+C:\Users\omer abdullah\Desktop\project\data\bin\Debug\data.exe.config
+C:\Users\omer abdullah\Desktop\project\data\bin\Debug\data.exe
+C:\Users\omer abdullah\Desktop\project\data\bin\Debug\data.pdb
+C:\Users\omer abdullah\Desktop\project\data\bin\Debug\Guna.UI2.dll
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.csproj.AssemblyReference.cache
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.aboutform.resources
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.carform.resources
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.homeform.resources
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.Properties.Resources.resources
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.RENTAL.resources
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.truckform.resources
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.vanform.resources
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.csproj.GenerateResource.cache
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.csproj.CoreCompileInputs.cache
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.csproj.CopyComplete
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.exe
+C:\Users\omer abdullah\Desktop\project\data\obj\Debug\data.pdb
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\bin\Debug\DB1.mdf
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\bin\Debug\DB1_log.ldf
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\bin\Debug\data.exe.config
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\bin\Debug\data.exe
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\bin\Debug\data.pdb
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\bin\Debug\Guna.UI2.dll
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.csproj.AssemblyReference.cache
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.aboutform.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.carform.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.homeform.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.Properties.Resources.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.RENTAL.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.truckform.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.vanform.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.csproj.GenerateResource.cache
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.csproj.CoreCompileInputs.cache
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.csproj.CopyComplete
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.exe
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.pdb
