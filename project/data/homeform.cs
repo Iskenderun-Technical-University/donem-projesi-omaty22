@@ -30,7 +30,7 @@ namespace data
 
         private void guna2GradientButton2_Click(object sender, EventArgs e)
         {
-            Program.rental.Show();
+            Program.rentalhome.Show();
             this.Hide();   
         }
 

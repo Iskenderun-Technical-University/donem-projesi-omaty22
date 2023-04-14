@@ -12,14 +12,20 @@ namespace data
     {
         public static homeform homeform;
         public static aboutform aboutform;
-        public static RENTAL rental;
+        public static rentalhome rentalhome;
+        public static carform carform;
+        public static vanform vanform;
+        public static truckform truckform;
         static void Main(string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             homeform = new homeform();
             aboutform = new aboutform();
-            rental = new RENTAL();
+            rentalhome = new rentalhome();
+            carform = new carform();
+            vanform = new vanform();
+            truckform = new truckform();
             Application.Run(homeform);
         }
     }
