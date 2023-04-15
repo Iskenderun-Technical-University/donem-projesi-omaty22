@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(vanform));
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -97,6 +98,7 @@
             // 
             // panel4
             // 
+            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.Location = new System.Drawing.Point(12, 49);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(228, 164);
