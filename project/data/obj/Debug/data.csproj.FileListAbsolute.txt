@@ -56,3 +56,4 @@ C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debu
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.exe
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.pdb
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.rentalhome.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.csproj.SuggestedBindingRedirects.cache
