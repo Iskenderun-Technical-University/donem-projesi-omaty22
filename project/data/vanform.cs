@@ -74,44 +74,50 @@ namespace data
         {
             ++x;
             addone(label16,x);
+            label15.Text = Convert.ToString(x * 185);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             ++y;
             addone(label12, y);
+            label11.Text = Convert.ToString(y * 175);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             ++z;
             addone(label9, z);
+            label8.Text = Convert.ToString(z *250);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (x > 0)
+            if (x >=1)
             {
                 --x;
                 minusone(label16, x);
+                label15.Text = Convert.ToString(x * 185);
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (y > 0)
+            if (y >= 1)
             {
                 --y;
                 minusone(label12, y);
+                label11.Text = Convert.ToString(y * 175);
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (z > 0)
+            if (z >=1)
             {
                 --z;
                 minusone(label9, z);
+                label8.Text = Convert.ToString(z * 250);
             }
         }
 

@@ -48,10 +48,11 @@ namespace data
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (x > 0)
+            if (x >=1)
             {
                 --x;
                 minusone(label9, x);
+                label10.Text = Convert.ToString(x * 200);
             }
         }
 
@@ -95,14 +96,16 @@ namespace data
         {
             ++z;
             addone(label12,z);
+            label11.Text = Convert.ToString(z* 250);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (z > 0)
+            if (z >=1)
             {
                 --z;
                 minusone(label12, z);
+                label11.Text = Convert.ToString(z * 250);
             }
         }
 
@@ -110,20 +113,28 @@ namespace data
         {
             ++x;
             addone(label9,x);
+            label10.Text = Convert.ToString(x * 200);
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             ++y;
             addone(label16,y);
+            label15.Text = Convert.ToString(y * 230);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (y > 0)
+            if (y >=1)
             {
                 --y;
                 minusone(label16, y);
+                label15.Text = Convert.ToString(y * 230);
             }
         }
     }

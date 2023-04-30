@@ -59,32 +59,36 @@ namespace data
         {
             ++x;
             addone(label12, x);
+            label11.Text = Convert.ToString(x * 350);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (x > 0)
+            if (x >=1)
             {
                 --x;
                 minusone(label12, x);
+                label11.Text = Convert.ToString(x * 350);
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (y > 0)
+            if (y >=1)
             {
                 --y;
                 minusone(label8, y);
+                label11.Text = Convert.ToString(y * 150);
             }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (z > 0)
+            if (z >=1)
             {
                 --z;
                 minusone(label16, z);
+                label15.Text = Convert.ToString(z * 175);
             }
         }
 
@@ -92,12 +96,14 @@ namespace data
         {
             ++y;
             addone(label8, y);
+            label7.Text = Convert.ToString(y* 150);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             ++z;
             addone(label16, z);
+            label15.Text = Convert.ToString(z * 175);
         }
 
         private void guna2GradientButton2_Click(object sender, EventArgs e)
