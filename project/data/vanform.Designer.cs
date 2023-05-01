@@ -67,6 +67,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -90,6 +93,7 @@
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.guna2GradientButton4);
             this.panel7.Controls.Add(this.label18);
             this.panel7.Controls.Add(this.label15);
             this.panel7.Controls.Add(this.button6);
@@ -97,9 +101,9 @@
             this.panel7.Controls.Add(this.button5);
             this.panel7.Controls.Add(this.label17);
             this.panel7.Location = new System.Drawing.Point(459, 218);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(258, 47);
+            this.panel7.Size = new System.Drawing.Size(328, 47);
             this.panel7.TabIndex = 24;
             // 
             // label18
@@ -222,6 +226,7 @@
             // 
             // panel8
             // 
+            this.panel8.Controls.Add(this.guna2GradientButton5);
             this.panel8.Controls.Add(this.label14);
             this.panel8.Controls.Add(this.label11);
             this.panel8.Controls.Add(this.button4);
@@ -229,9 +234,9 @@
             this.panel8.Controls.Add(this.button3);
             this.panel8.Controls.Add(this.label13);
             this.panel8.Location = new System.Drawing.Point(459, 218);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(258, 47);
+            this.panel8.Size = new System.Drawing.Size(325, 47);
             this.panel8.TabIndex = 24;
             this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
@@ -355,6 +360,7 @@
             // 
             // panel9
             // 
+            this.panel9.Controls.Add(this.guna2GradientButton6);
             this.panel9.Controls.Add(this.label7);
             this.panel9.Controls.Add(this.label8);
             this.panel9.Controls.Add(this.button1);
@@ -362,9 +368,9 @@
             this.panel9.Controls.Add(this.button2);
             this.panel9.Controls.Add(this.label10);
             this.panel9.Location = new System.Drawing.Point(459, 211);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(258, 47);
+            this.panel9.Size = new System.Drawing.Size(325, 47);
             this.panel9.TabIndex = 25;
             // 
             // label7
@@ -471,6 +477,54 @@
             this.panel6.Size = new System.Drawing.Size(228, 176);
             this.panel6.TabIndex = 0;
             // 
+            // guna2GradientButton4
+            // 
+            this.guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton4.Location = new System.Drawing.Point(269, 8);
+            this.guna2GradientButton4.Name = "guna2GradientButton4";
+            this.guna2GradientButton4.Size = new System.Drawing.Size(56, 35);
+            this.guna2GradientButton4.TabIndex = 24;
+            this.guna2GradientButton4.Text = "ADD";
+            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
+            // 
+            // guna2GradientButton5
+            // 
+            this.guna2GradientButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton5.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.guna2GradientButton5.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton5.Location = new System.Drawing.Point(269, 9);
+            this.guna2GradientButton5.Name = "guna2GradientButton5";
+            this.guna2GradientButton5.Size = new System.Drawing.Size(56, 35);
+            this.guna2GradientButton5.TabIndex = 25;
+            this.guna2GradientButton5.Text = "ADD";
+            this.guna2GradientButton5.Click += new System.EventHandler(this.guna2GradientButton5_Click);
+            // 
+            // guna2GradientButton6
+            // 
+            this.guna2GradientButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton6.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.guna2GradientButton6.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton6.Location = new System.Drawing.Point(269, 9);
+            this.guna2GradientButton6.Name = "guna2GradientButton6";
+            this.guna2GradientButton6.Size = new System.Drawing.Size(56, 35);
+            this.guna2GradientButton6.TabIndex = 25;
+            this.guna2GradientButton6.Text = "ADD";
+            this.guna2GradientButton6.Click += new System.EventHandler(this.guna2GradientButton6_Click);
+            // 
             // vanform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -481,7 +535,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "vanform";
             this.Text = "vanform";
             this.panel1.ResumeLayout(false);
@@ -538,5 +592,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label10;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton5;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton6;
     }
 }

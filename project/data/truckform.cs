@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace data
 {
     public partial class truckform : Form
@@ -34,6 +34,17 @@ namespace data
         {
             Panel p = panel as Panel;
             p.Visible = true;
+        }
+        public void addtotable(Label days, Label price, Label name)
+        {
+            Program.con.Open();
+            SqlCommand cmd = new SqlCommand(@"insert into [rentaltable] values(@DAYS,@PRICE,@NAME)", Program.con);
+            cmd.Parameters.AddWithValue("@DAYS", int.Parse(days.Text));
+            cmd.Parameters.AddWithValue("@PRİCE", int.Parse(price.Text));
+            cmd.Parameters.AddWithValue("@NAME", name.Text);
+            cmd.ExecuteNonQuery();
+            Program.con.Close();
+            MessageBox.Show("tanks for choosing tak-c,drive safe");
         }
         public truckform()
         {
@@ -104,6 +115,21 @@ namespace data
             ++z;
             addone(label16, z);
             label15.Text = Convert.ToString(z * 175);
+        }
+
+        private void guna2GradientButton5_Click(object sender, EventArgs e)
+        {
+            addtotable(label12, label11, label1);
+        }
+
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+            addtotable(label8, label7, label4);
+        }
+
+        private void guna2GradientButton6_Click(object sender, EventArgs e)
+        {
+            addtotable(label16, label15, label6);
         }
 
         private void guna2GradientButton2_Click(object sender, EventArgs e)

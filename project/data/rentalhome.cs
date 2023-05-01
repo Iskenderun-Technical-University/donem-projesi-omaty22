@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace data
 {
     public partial class rentalhome : Form
@@ -56,6 +56,12 @@ namespace data
         {
             Program.homeform.Show();
             this.Hide();
+        }
+
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+           
+            Loadform(new rentals());
         }
     }
 }
