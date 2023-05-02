@@ -43,9 +43,9 @@ namespace data
             Program.con.Open();
             SqlCommand cmd = new SqlCommand(@"insert into [rentaltable] values(@DAYS,@PRICE,@NAME)", Program.con);
             cmd.Parameters.AddWithValue("@DAYS", int.Parse(days.Text));
-            cmd.Parameters.AddWithValue("@PRİCE", int.Parse(price.Text));
+            cmd.Parameters.AddWithValue("@PRICE", int.Parse(price.Text));
             cmd.Parameters.AddWithValue("@NAME", name.Text);
-            cmd.ExecuteNonQuery();
+            int k = cmd.ExecuteNonQuery();
             Program.con.Close();
             MessageBox.Show("tanks for choosing tak-c,drive safe");
         }
