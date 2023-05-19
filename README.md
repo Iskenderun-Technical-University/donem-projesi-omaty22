@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/uelKf0-p)
 # MOTİVASYON;
 
 >geçen dönemin projesinden takımımla full puanı alabildiğimizden beri bu projeyi heycanla beklemekteyim,ve c# dilinde bilgilerim geçen dönemden daha iyi olduğundan bu projede özellikle net,açık ve etkili kodlar c# amature olarak elimden geldiği kadar tutmaya çalıştım 
