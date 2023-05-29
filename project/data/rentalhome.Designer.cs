@@ -55,7 +55,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(267, 1001);
             this.panel1.TabIndex = 0;
@@ -73,7 +73,7 @@
             this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton4.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton4.Location = new System.Drawing.Point(9, 383);
-            this.guna2GradientButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientButton4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientButton4.Name = "guna2GradientButton4";
             this.guna2GradientButton4.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton4.TabIndex = 3;
@@ -89,7 +89,7 @@
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.Location = new System.Drawing.Point(13, 731);
-            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton1.Size = new System.Drawing.Size(85, 66);
@@ -109,7 +109,7 @@
             this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton3.Location = new System.Drawing.Point(9, 288);
-            this.guna2GradientButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientButton3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
             this.guna2GradientButton3.Size = new System.Drawing.Size(257, 55);
             this.guna2GradientButton3.TabIndex = 4;
@@ -130,7 +130,7 @@
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton1.Location = new System.Drawing.Point(9, 89);
-            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton1.TabIndex = 2;
@@ -151,7 +151,7 @@
             this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton2.Location = new System.Drawing.Point(9, 190);
-            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton2.TabIndex = 3;
@@ -164,7 +164,7 @@
             this.panel2.BackColor = System.Drawing.Color.Coral;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 46);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(267, 16);
             this.panel2.TabIndex = 1;
@@ -185,7 +185,7 @@
             // panel3
             // 
             this.panel3.Location = new System.Drawing.Point(271, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1265, 1001);
             this.panel3.TabIndex = 1;
@@ -199,7 +199,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "rentalhome";
             this.Text = "rentalhome";
             this.Load += new System.EventHandler(this.rentalhome_Load);

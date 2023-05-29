@@ -85,6 +85,12 @@
     <Compile Include="homeform.Designer.cs">
       <DependentUpon>homeform.cs</DependentUpon>
     </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -103,6 +109,12 @@
     </Compile>
     <Compile Include="rentals.Designer.cs">
       <DependentUpon>rentals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signup.Designer.cs">
+      <DependentUpon>signup.cs</DependentUpon>
     </Compile>
     <Compile Include="truckform.cs">
       <SubType>Form</SubType>
@@ -155,6 +167,9 @@
     <EmbeddedResource Include="homeform.resx">
       <DependentUpon>homeform.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -164,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="rentals.resx">
       <DependentUpon>rentals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="truckform.resx">
       <DependentUpon>truckform.cs</DependentUpon>
