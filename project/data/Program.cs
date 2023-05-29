@@ -19,7 +19,7 @@ namespace data
         public static truckform truckform;
         public static rentals rentals;
         public static signup signup;
-
+        public static login login;
 
         public static SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=""C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\DB1.mdf"";Integrated Security = True");
         static void Main(string[] args)
@@ -34,6 +34,7 @@ namespace data
             truckform = new truckform();
             rentals = new rentals();
             signup = new signup();
+            login = new login();
             Application.Run(homeform);
         }
     }

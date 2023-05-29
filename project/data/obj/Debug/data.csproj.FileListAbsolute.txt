@@ -57,3 +57,5 @@ C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debu
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.pdb
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.rentalhome.resources
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.rentals.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.login.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.signup.resources
