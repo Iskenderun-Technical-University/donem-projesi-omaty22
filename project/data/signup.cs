@@ -20,10 +20,9 @@ namespace data
         }
         public void addtotable()
         {
-            ++i;
+            
             Program.con.Open();
-            SqlCommand cmd = new SqlCommand(@"insert into [signuptable] values(@id,@username,@password)", Program.con);
-            cmd.Parameters.AddWithValue("@Id", i);
+            SqlCommand cmd = new SqlCommand(@"insert into [signuptable] values(@username,@password)", Program.con);
             cmd.Parameters.AddWithValue("@username", textBox1.Text);
             cmd.Parameters.AddWithValue("@password", textBox2.Text);
             cmd.ExecuteNonQuery();
@@ -79,6 +78,16 @@ namespace data
         {
             Program.login.Show();
             this.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void signup_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

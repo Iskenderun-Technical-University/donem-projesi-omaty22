@@ -116,6 +116,12 @@
     <Compile Include="signup.Designer.cs">
       <DependentUpon>signup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Takmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Takmain.Designer.cs">
+      <DependentUpon>Takmain.cs</DependentUpon>
+    </Compile>
     <Compile Include="truckform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Takmain.resx">
+      <DependentUpon>Takmain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="truckform.resx">
       <DependentUpon>truckform.cs</DependentUpon>

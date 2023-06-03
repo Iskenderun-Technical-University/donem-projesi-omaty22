@@ -56,14 +56,18 @@ namespace data
             {
                 using (Program.con)
                 {
-                    string login = "select * from signuptable where username= '" + textBox1.Text + "' and password= '" + textBox2.Text + "'";
+                    
+                    string login = "select * from [signuptable] where username= '" + textBox1.Text + "' and password= '" + textBox2.Text + "'";
                     SqlDataAdapter sda = new SqlDataAdapter(login, Program.con);
                     DataTable dt = new DataTable();
                     sda.Fill(dt);
-                    if (dt.Rows.Count == 1)
+
+                    if (dt.Rows.Count == 0)
                     {
-                        MessageBox.Show("nice");
+                        Program.takmain.Show();
+                        this.Hide();
                     }
+                
                 }
             }
         }

@@ -101,7 +101,7 @@
             this.panel7.Controls.Add(this.button3);
             this.panel7.Controls.Add(this.label13);
             this.panel7.Location = new System.Drawing.Point(475, 229);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(342, 36);
             this.panel7.TabIndex = 24;
@@ -249,7 +249,7 @@
             this.panel8.Controls.Add(this.label10);
             this.panel8.Controls.Add(this.label9);
             this.panel8.Location = new System.Drawing.Point(467, 230);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(350, 36);
             this.panel8.TabIndex = 25;
@@ -397,7 +397,7 @@
             this.panel9.Controls.Add(this.button5);
             this.panel9.Controls.Add(this.label17);
             this.panel9.Location = new System.Drawing.Point(467, 225);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(350, 44);
             this.panel9.TabIndex = 31;
@@ -532,7 +532,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "truckform";
             this.Text = "truckform";
             this.panel1.ResumeLayout(false);
