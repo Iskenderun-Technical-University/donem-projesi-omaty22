@@ -13,13 +13,14 @@ namespace data
     
     public partial class signup : Form
     {
-        public int i=1;
+        public int i;
         public signup()
         {
             InitializeComponent();
         }
         public void addtotable()
         {
+            ++i;
             Program.con.Open();
             SqlCommand cmd = new SqlCommand(@"insert into [signuptable] values(@id,@username,@password)", Program.con);
             cmd.Parameters.AddWithValue("@Id", i);
@@ -27,7 +28,7 @@ namespace data
             cmd.Parameters.AddWithValue("@password", textBox2.Text);
             cmd.ExecuteNonQuery();
             Program.con.Close();
-            i++;
+           
         }
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
@@ -67,6 +68,17 @@ namespace data
             textBox2.Text = "";
             textBox3.Text = "";
             textBox1.Focus();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            Program.login.Show();
+            this.Hide();
         }
     }
 }

@@ -30,6 +30,7 @@ namespace data
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(signup));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,9 +40,9 @@ namespace data
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.SuspendLayout();
             // 
             // label1
@@ -104,7 +105,7 @@ namespace data
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.checkBox1.Location = new System.Drawing.Point(176, 288);
+            this.checkBox1.Location = new System.Drawing.Point(206, 377);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(136, 21);
@@ -125,7 +126,7 @@ namespace data
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Coral;
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(53, 427);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(47, 413);
             this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(236, 37);
@@ -145,7 +146,7 @@ namespace data
             this.guna2GradientButton2.FillColor2 = System.Drawing.Color.WhiteSmoke;
             this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(53, 481);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(47, 467);
             this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(236, 37);
@@ -153,40 +154,44 @@ namespace data
             this.guna2GradientButton2.Text = "Clear";
             this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.checkBox2.Location = new System.Drawing.Point(182, 390);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(136, 21);
-            this.checkBox2.TabIndex = 10;
-            this.checkBox2.Text = "show password";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox3.Location = new System.Drawing.Point(47, 334);
+            this.textBox3.Location = new System.Drawing.Point(47, 318);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
             this.textBox3.Size = new System.Drawing.Size(236, 34);
             this.textBox3.TabIndex = 9;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(43, 305);
+            this.label4.Location = new System.Drawing.Point(43, 289);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(214, 27);
             this.label4.TabIndex = 8;
             this.label4.Text = "Confirm Password";
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(24, 24);
+            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(16, 16);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(276, 494);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(16, 16);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(52, 52);
+            this.guna2ImageButton1.TabIndex = 10;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // signup
             // 
@@ -194,7 +199,7 @@ namespace data
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(327, 548);
-            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.guna2GradientButton2);
@@ -225,8 +230,8 @@ namespace data
         private System.Windows.Forms.CheckBox checkBox1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
     }
 }

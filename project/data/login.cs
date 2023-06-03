@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace data
 {
@@ -15,6 +16,56 @@ namespace data
         public login()
         {
             InitializeComponent();
+            
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Program.signup.Show();
+            this.Hide();
+        }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox1.Focus();
+        }
+        private bool isvalid()
+        {
+            if(textBox1.Text.TrimStart() ==string.Empty)
+            {
+                MessageBox.Show("enter valid username", "error");
+                return false;
+            }
+            else if(textBox1.Text.TrimStart() == string.Empty)
+            {
+                MessageBox.Show("enter valid username", "error");
+                return false;
+            }
+            return true;
+        }
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            if (isvalid())
+            {
+                using (Program.con)
+                {
+                    string login = "select * from signuptable where username= '" + textBox1.Text + "' and password= '" + textBox2.Text + "'";
+                    SqlDataAdapter sda = new SqlDataAdapter(login, Program.con);
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    if (dt.Rows.Count == 1)
+                    {
+                        MessageBox.Show("nice");
+                    }
+                }
+            }
         }
     }
 }

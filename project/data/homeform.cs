@@ -41,7 +41,7 @@ namespace data
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            Program.signup.Show();
+            Program.login.Show();
             this.Hide();
         }
     }
