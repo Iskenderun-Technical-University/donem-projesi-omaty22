@@ -43,5 +43,10 @@ namespace data
             Program.homeform.Show();
             this.Hide();
         }
+
+        private void guna2GradientButton3_Click(object sender, EventArgs e)
+        {
+            Loadform(new rented());
+        }
     }
 }

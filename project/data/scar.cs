@@ -47,8 +47,8 @@ namespace data
                price.Text = "280";
             else
                 price.Text = "300";
-            
 
+            
 
         }
 
@@ -61,6 +61,7 @@ namespace data
                 price.Text = "125";
             else
                 price.Text = "150";
+
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
@@ -72,6 +73,19 @@ namespace data
                 price.Text = "180";
             else
                 price.Text = "200";
+
+          
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+                Program.r5 = true;
+            else if (radioButton2.Checked)
+                Program.r3 = true;
+            else if (radioButton3.Checked)
+                Program.r4 = true;
+            MessageBox.Show("rented,please procced to the (rented) section");
         }
     }
 }

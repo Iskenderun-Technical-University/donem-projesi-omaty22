@@ -133,6 +133,7 @@ namespace data
             this.guna2GradientButton3.TabIndex = 19;
             this.guna2GradientButton3.Text = "Rented";
             this.guna2GradientButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2GradientButton3.Click += new System.EventHandler(this.guna2GradientButton3_Click);
             // 
             // guna2BorderlessForm1
             // 

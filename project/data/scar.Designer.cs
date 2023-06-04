@@ -57,7 +57,7 @@ namespace data
             this.panel1.Controls.Add(this.carname);
             this.panel1.Controls.Add(this.carpic);
             this.panel1.Location = new System.Drawing.Point(3, 137);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1023, 358);
             this.panel1.TabIndex = 0;
@@ -126,7 +126,7 @@ namespace data
             // 
             this.carpic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("carpic.BackgroundImage")));
             this.carpic.Location = new System.Drawing.Point(5, 94);
-            this.carpic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.carpic.Margin = new System.Windows.Forms.Padding(4);
             this.carpic.Name = "carpic";
             this.carpic.Size = new System.Drawing.Size(304, 202);
             this.carpic.TabIndex = 25;
@@ -152,11 +152,12 @@ namespace data
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.Location = new System.Drawing.Point(786, 503);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(240, 55);
             this.guna2Button1.TabIndex = 28;
             this.guna2Button1.Text = "Confirm";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // label1
             // 
@@ -221,7 +222,7 @@ namespace data
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "scar";
             this.Text = "scar";
             this.panel1.ResumeLayout(false);
