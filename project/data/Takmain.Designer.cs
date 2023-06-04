@@ -46,7 +46,7 @@ namespace data
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(271, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1028, 571);
             this.panel1.TabIndex = 14;
@@ -64,7 +64,7 @@ namespace data
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton1.Location = new System.Drawing.Point(9, 97);
-            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton1.TabIndex = 17;
@@ -75,10 +75,10 @@ namespace data
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Turquoise;
-            this.panel2.Location = new System.Drawing.Point(0, 49);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(-3, 58);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(267, 16);
+            this.panel2.Size = new System.Drawing.Size(267, 10);
             this.panel2.TabIndex = 16;
             // 
             // label7
@@ -106,7 +106,7 @@ namespace data
             this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton2.Location = new System.Drawing.Point(11, 192);
-            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton2.TabIndex = 18;
@@ -127,7 +127,7 @@ namespace data
             this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.Black;
             this.guna2GradientButton3.Location = new System.Drawing.Point(9, 284);
-            this.guna2GradientButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientButton3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
             this.guna2GradientButton3.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton3.TabIndex = 19;
@@ -148,7 +148,7 @@ namespace data
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.Location = new System.Drawing.Point(16, 474);
-            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton1.Size = new System.Drawing.Size(85, 66);
@@ -169,7 +169,7 @@ namespace data
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Takmain";
             this.Text = "Takmain";
             this.ResumeLayout(false);

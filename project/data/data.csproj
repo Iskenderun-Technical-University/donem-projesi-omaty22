@@ -110,6 +110,12 @@
     <Compile Include="rentals.Designer.cs">
       <DependentUpon>rentals.cs</DependentUpon>
     </Compile>
+    <Compile Include="rented.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rented.Designer.cs">
+      <DependentUpon>rented.cs</DependentUpon>
+    </Compile>
     <Compile Include="scar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="rentals.resx">
       <DependentUpon>rentals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rented.resx">
+      <DependentUpon>rented.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="scar.resx">
       <DependentUpon>scar.cs</DependentUpon>
