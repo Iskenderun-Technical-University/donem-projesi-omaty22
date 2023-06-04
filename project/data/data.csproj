@@ -110,11 +110,23 @@
     <Compile Include="rentals.Designer.cs">
       <DependentUpon>rentals.cs</DependentUpon>
     </Compile>
+    <Compile Include="scar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scar.Designer.cs">
+      <DependentUpon>scar.cs</DependentUpon>
+    </Compile>
     <Compile Include="signup.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="signup.Designer.cs">
       <DependentUpon>signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="survey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="survey.Designer.cs">
+      <DependentUpon>survey.cs</DependentUpon>
     </Compile>
     <Compile Include="Takmain.cs">
       <SubType>Form</SubType>
@@ -186,8 +198,14 @@
     <EmbeddedResource Include="rentals.resx">
       <DependentUpon>rentals.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="scar.resx">
+      <DependentUpon>scar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="survey.resx">
+      <DependentUpon>survey.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Takmain.resx">
       <DependentUpon>Takmain.cs</DependentUpon>

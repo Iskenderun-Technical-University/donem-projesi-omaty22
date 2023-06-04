@@ -66,6 +66,7 @@ namespace data
                     {
                         Program.takmain.Show();
                         this.Hide();
+                        Program.con.Close();
                     }
                 
                 }

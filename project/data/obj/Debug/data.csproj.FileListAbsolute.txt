@@ -60,3 +60,5 @@ C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debu
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.login.resources
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.signup.resources
 C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.Takmain.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.scar.resources
+C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\obj\Debug\data.survey.resources

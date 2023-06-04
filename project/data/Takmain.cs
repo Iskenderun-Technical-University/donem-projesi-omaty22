@@ -30,11 +30,18 @@ namespace data
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
-            textBox1.Focus();
-            Program.takmain.Show();
+            Loadform(new survey());
+        }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            Loadform(new scar());
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            Program.homeform.Show();
+            this.Hide();
         }
     }
 }
