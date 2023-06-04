@@ -13,6 +13,10 @@ namespace data
     public partial class carform : Form
     {
         int x = 0, y = 0, z = 0;
+        public void ChangeBGImage(Image bgImage)
+        {
+            this.BackgroundImage = bgImage;
+        }
         public void addone(Label label,int count)
         {
             Label L = label as Label;

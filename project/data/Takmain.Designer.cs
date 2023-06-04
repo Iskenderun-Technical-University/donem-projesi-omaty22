@@ -45,9 +45,10 @@ namespace data
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(203, 0);
+            this.panel1.Location = new System.Drawing.Point(271, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(771, 464);
+            this.panel1.Size = new System.Drawing.Size(1028, 571);
             this.panel1.TabIndex = 14;
             // 
             // guna2GradientButton1
@@ -62,9 +63,10 @@ namespace data
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.MediumAquamarine;
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(7, 79);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(9, 97);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(190, 45);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton1.TabIndex = 17;
             this.guna2GradientButton1.Text = "Survey";
             this.guna2GradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -73,9 +75,10 @@ namespace data
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Turquoise;
-            this.panel2.Location = new System.Drawing.Point(0, 40);
+            this.panel2.Location = new System.Drawing.Point(0, 49);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 13);
+            this.panel2.Size = new System.Drawing.Size(267, 16);
             this.panel2.TabIndex = 16;
             // 
             // label7
@@ -84,8 +87,9 @@ namespace data
             this.label7.Dock = System.Windows.Forms.DockStyle.Top;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(0, 0);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(97, 45);
+            this.label7.Size = new System.Drawing.Size(118, 54);
             this.label7.TabIndex = 15;
             this.label7.Text = "Tak-c";
             // 
@@ -101,9 +105,10 @@ namespace data
             this.guna2GradientButton2.FillColor2 = System.Drawing.Color.MediumAquamarine;
             this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(8, 156);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(11, 192);
+            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(190, 45);
+            this.guna2GradientButton2.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton2.TabIndex = 18;
             this.guna2GradientButton2.Text = "Suitable Car";
             this.guna2GradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -121,9 +126,10 @@ namespace data
             this.guna2GradientButton3.FillColor2 = System.Drawing.Color.MediumAquamarine;
             this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(7, 231);
+            this.guna2GradientButton3.Location = new System.Drawing.Point(9, 284);
+            this.guna2GradientButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.Size = new System.Drawing.Size(190, 45);
+            this.guna2GradientButton3.Size = new System.Drawing.Size(253, 55);
             this.guna2GradientButton3.TabIndex = 19;
             this.guna2GradientButton3.Text = "Rented";
             this.guna2GradientButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -141,19 +147,20 @@ namespace data
             this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(12, 385);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(16, 474);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(64, 54);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(85, 66);
             this.guna2ImageButton1.TabIndex = 20;
             this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // Takmain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(973, 464);
+            this.ClientSize = new System.Drawing.Size(1297, 571);
             this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.guna2GradientButton3);
             this.Controls.Add(this.guna2GradientButton2);
@@ -162,6 +169,7 @@ namespace data
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Takmain";
             this.Text = "Takmain";
             this.ResumeLayout(false);

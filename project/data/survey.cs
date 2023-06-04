@@ -15,7 +15,6 @@ namespace data
         public void custom()
         {
             textBox1.Text = "";
-            textBox2.Text = "";
             textBox3.Text = "";
             textBox1.Focus();
         }
@@ -23,6 +22,43 @@ namespace data
         {
             InitializeComponent();
             custom();
+        }
+
+        private void pplcount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (disper.Checked)
+            {
+                Program.dis = true;
+            }
+            else
+                Program.dis = false;
+
+            MessageBox.Show("please procced to the (suitable car) section");
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void morethan4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lessthan4_CheckedChanged(object sender, EventArgs e)
+        {
+    
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+          
         }
     }
 }

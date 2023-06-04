@@ -22,7 +22,9 @@ namespace data
         public static login login;
         public static Takmain takmain;
         public static scar scar;
+        public static survey survey;
 
+        public static bool dis;
         public static SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=""C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\DB1.mdf"";Integrated Security = True");
         static void Main(string[] args)
         {
@@ -39,7 +41,9 @@ namespace data
             login = new login();
             takmain = new Takmain();
             scar = new scar();
+            survey = new survey();
             Application.Run(homeform);
+            
         }
     }
 }
