@@ -93,6 +93,7 @@ namespace data
             this.checkBox1.TabIndex = 13;
             this.checkBox1.Text = "show password";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // textBox2
             // 
@@ -102,8 +103,10 @@ namespace data
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(315, 42);
             this.textBox2.TabIndex = 12;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace data
 {
@@ -19,10 +20,20 @@ namespace data
          
             InitializeComponent();
         }
-
+        public void showtable()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=""C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\DB1.mdf"";Integrated Security = True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from [taktable]", con);
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            guna2DataGridView1.DataSource = ds.Tables[0];
+            con.Close();
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-            sec = 30;
+            sec = 10;
             timer1.Start();
             labeltime.Visible = true;
             if (Program.r5)
@@ -52,6 +63,14 @@ namespace data
                 else
                     price.Text = "150";
             }
+            SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=""C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\DB1.mdf"";Integrated Security = True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand(@"insert into [taktable] values(@name,@price)",con);
+            cmd.Parameters.AddWithValue("@name", carname.Text);
+            cmd.Parameters.AddWithValue("@price", int.Parse(price.Text));
+            cmd.ExecuteNonQuery();
+            con.Close();
+            showtable();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -60,8 +79,14 @@ namespace data
             if (sec < 0)
             {
                 timer1.Stop();
-
+                guna2DataGridView1.Rows.Add(carname.Text,price.Text);
+                MessageBox.Show("Your car arrived,please step outside");
             }
+        }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

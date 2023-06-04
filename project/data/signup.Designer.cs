@@ -95,6 +95,7 @@ namespace data
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(315, 42);
             this.textBox2.TabIndex = 4;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
@@ -191,7 +192,7 @@ namespace data
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(16, 16);
             this.guna2ImageButton1.Location = new System.Drawing.Point(871, 610);
-            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(16, 16);
             this.guna2ImageButton1.Size = new System.Drawing.Size(69, 64);
@@ -245,7 +246,7 @@ namespace data
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton1.Location = new System.Drawing.Point(455, 251);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.radioButton1.Size = new System.Drawing.Size(93, 35);
@@ -259,7 +260,7 @@ namespace data
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton2.Location = new System.Drawing.Point(453, 294);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(131, 35);
             this.radioButton2.TabIndex = 16;

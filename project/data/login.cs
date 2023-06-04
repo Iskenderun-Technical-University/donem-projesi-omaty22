@@ -72,5 +72,22 @@ namespace data
                 }
             }
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                textBox2.PasswordChar = '\0';
+            }
+            else
+            {
+                textBox2.PasswordChar = '*';
+            }
+        }
     }
 }

@@ -24,7 +24,6 @@ namespace data
         public static scar scar;
         public static survey survey;
         public static rented rented;
-
         public static bool dis,r3,r4,r5;
         public static SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=""C:\Users\omer abdullah\Desktop\tak c\donem-projesi-omaty22\project\data\DB1.mdf"";Integrated Security = True");
         static void Main(string[] args)

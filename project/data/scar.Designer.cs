@@ -59,7 +59,7 @@ namespace data
             this.panel1.Location = new System.Drawing.Point(3, 137);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1023, 358);
+            this.panel1.Size = new System.Drawing.Size(1023, 343);
             this.panel1.TabIndex = 0;
             // 
             // slabel
@@ -67,7 +67,7 @@ namespace data
             this.slabel.AutoSize = true;
             this.slabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.slabel.ForeColor = System.Drawing.Color.DarkRed;
-            this.slabel.Location = new System.Drawing.Point(460, 311);
+            this.slabel.Location = new System.Drawing.Point(468, 286);
             this.slabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.slabel.Name = "slabel";
             this.slabel.Size = new System.Drawing.Size(263, 36);
@@ -79,7 +79,7 @@ namespace data
             // 
             this.price.AutoSize = true;
             this.price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.price.Location = new System.Drawing.Point(861, 316);
+            this.price.Location = new System.Drawing.Point(854, 295);
             this.price.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.price.Name = "price";
             this.price.Size = new System.Drawing.Size(48, 25);
@@ -90,7 +90,7 @@ namespace data
             // 
             this.cardesc.AutoSize = true;
             this.cardesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cardesc.Location = new System.Drawing.Point(321, 111);
+            this.cardesc.Location = new System.Drawing.Point(332, 100);
             this.cardesc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.cardesc.MaximumSize = new System.Drawing.Size(651, 186);
             this.cardesc.MinimumSize = new System.Drawing.Size(651, 186);
@@ -104,7 +104,7 @@ namespace data
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(756, 311);
+            this.label4.Location = new System.Drawing.Point(740, 286);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 36);
@@ -144,17 +144,18 @@ namespace data
             // 
             // guna2Button1
             // 
+            this.guna2Button1.BorderRadius = 20;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Gray;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(786, 503);
+            this.guna2Button1.FillColor = System.Drawing.Color.MediumAquamarine;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Italic);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(836, 488);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(240, 55);
+            this.guna2Button1.Size = new System.Drawing.Size(190, 59);
             this.guna2Button1.TabIndex = 28;
             this.guna2Button1.Text = "Confirm";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
