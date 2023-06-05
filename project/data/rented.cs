@@ -79,7 +79,7 @@ namespace data
             if (sec < 0)
             {
                 timer1.Stop();
-                guna2DataGridView1.Rows.Add(carname.Text,price.Text);
+               
                 MessageBox.Show("Your car arrived,please step outside");
             }
         }

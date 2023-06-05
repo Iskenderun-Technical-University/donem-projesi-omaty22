@@ -12,6 +12,8 @@ namespace data
 {
     public partial class rentals : Form
     {
+        int indexrow;
+        
         public rentals()
         {
             InitializeComponent();
@@ -55,6 +57,34 @@ namespace data
             MessageBox.Show("successfully canceled");
             Program.con.Close();
             showtable();
+        }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void guna2GradientButton2_Click_1(object sender, EventArgs e)
+        {
+            DataGridViewRow row = this.guna2DataGridView1.Rows[indexrow];
+            int singprice =Convert.ToInt32( row.Cells["price"].Value);
+            DataGridViewRow dgvr = guna2DataGridView1.Rows[indexrow];
+            dgvr.Cells[0].Value =Convert.ToInt32( textBox1.Text);
+            dgvr.Cells[1].Value = Convert.ToInt32(textBox1.Text)*singprice;
+
+        }
+
+        private void guna2DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            indexrow = e.RowIndex;
+            
+
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
